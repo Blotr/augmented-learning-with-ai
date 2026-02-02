@@ -1,0 +1,32 @@
+{
+  "workbench.colorTheme": "Celestial Echoes",
+  "workbench.editor.empty.hint": "hidden",
+  "editor.minimap.enabled": false,
+
+  "editor.codeLens": true,
+  "editor.folding": true,
+  "editor.parameterHints.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+
+  // OpenAI Codex
+  "openai.codex.approvalMode": "agent",
+  "openai.codex.reasoningEffort": "high",
+
+  // Copilot for Learning
+  // Autocomplete: Ctrl + Space
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+
+  "editor.inlineSuggest.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.suggest.preview": false,
+
+"github.copilot.editor.enableCodeActions": true,
+"chat.disableAIFeatures": false
+}
