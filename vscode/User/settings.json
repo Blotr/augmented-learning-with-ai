@@ -1,237 +1,51 @@
 {
-
   "workbench.colorTheme": "Celestial Echoes",
-
   "workbench.editor.empty.hint": "hidden",
 
   "editor.minimap.enabled": false,
-
   "editor.codeLens": true,
-
   "editor.folding": true,
 
   "editor.parameterHints.enabled": true,
 
-  "editor.hover.enabled": "on",
-
+  "editor.hover.enabled": true,
   "editor.hover.delay": 300,
-
   "editor.hover.sticky": true,
 
   "editor.renderWhitespace": "boundary",
-
   "editor.guides.bracketPairs": true,
-
   "editor.bracketPairColorization.enabled": true,
 
   // OpenAI / Codex
-
   "openai.codex.approvalMode": "agent",
-
   "openai.codex.reasoningEffort": "high",
 
   // Copilot Learning (manual invocation only)
-
   // Autocomplete: Super + Alt + P
-
   "github.copilot.enable": {
-
     "*": true,
-
     "plaintext": false,
-
     "markdown": false,
-
     "scminput": false
-
   },
 
   "editor.quickSuggestions": {
-
     "other": false,
-
     "comments": false,
-
     "strings": false
-
   },
 
-
   "editor.suggestOnTriggerCharacters": false,
-
   "editor.inlineSuggest.enabled": false,
-
   "github.copilot.inlineSuggest.enable": true,
-
   "editor.acceptSuggestionOnEnter": "off",
-
   "editor.suggest.preview": false,
 
   "github.copilot.editor.enableCodeActions": true,
 
   "chat.disableAIFeatures": false,
-
   "chat.viewSessions.orientation": "stacked",
 
-  // C# Language Server - Use OmniSharp for VS Codium compatibility
-
+  // C# Language Server
   "csharp.semanticHighlighting.enabled": true
-
-}{
-
-  "workbench.colorTheme": "Celestial Echoes",
-
-  "workbench.editor.empty.hint": "hidden",
-
-  "editor.minimap.enabled": false,
-
-  "editor.codeLens": true,
-
-  "editor.folding": true,
-
-  "editor.parameterHints.enabled": true,
-
-  "editor.hover.enabled": "on",
-
-  "editor.hover.delay": 300,
-
-  "editor.hover.sticky": true,
-
-  "editor.renderWhitespace": "boundary",
-
-  "editor.guides.bracketPairs": true,
-
-  "editor.bracketPairColorization.enabled": true,
-
-  // OpenAI / Codex
-
-  "openai.codex.approvalMode": "agent",
-
-  "openai.codex.reasoningEffort": "high",
-
-  // Copilot Learning (manual invocation only)
-
-  // Autocomplete: Super + Alt + P
-
-  "github.copilot.enable": {
-
-    "*": true,
-
-    "plaintext": false,
-
-    "markdown": false,
-
-    "scminput": false
-
-  },
-
-  "editor.quickSuggestions": {
-
-    "other": false,
-
-    "comments": false,
-
-    "strings": false
-
-  },
-
-
-  "editor.suggestOnTriggerCharacters": false,
-
-  "editor.inlineSuggest.enabled": false,
-
-  "github.copilot.inlineSuggest.enable": true,
-
-  "editor.acceptSuggestionOnEnter": "off",
-
-  "editor.suggest.preview": false,
-
-  "github.copilot.editor.enableCodeActions": true,
-
-  "chat.disableAIFeatures": false,
-
-  "chat.viewSessions.orientation": "stacked",
-
-  // C# Language Server - Use OmniSharp for VS Codium compatibility
-
-  "csharp.semanticHighlighting.enabled": true
-
-}{
-
-  "workbench.colorTheme": "Celestial Echoes",
-
-  "workbench.editor.empty.hint": "hidden",
-
-  "editor.minimap.enabled": false,
-
-  "editor.codeLens": true,
-
-  "editor.folding": true,
-
-  "editor.parameterHints.enabled": true,
-
-  "editor.hover.enabled": "on",
-
-  "editor.hover.delay": 300,
-
-  "editor.hover.sticky": true,
-
-  "editor.renderWhitespace": "boundary",
-
-  "editor.guides.bracketPairs": true,
-
-  "editor.bracketPairColorization.enabled": true,
-
-  // OpenAI / Codex
-
-  "openai.codex.approvalMode": "agent",
-
-  "openai.codex.reasoningEffort": "high",
-
-  // Copilot Learning (manual invocation only)
-
-  // Autocomplete: Super + Alt + P
-
-  "github.copilot.enable": {
-
-    "*": true,
-
-    "plaintext": false,
-
-    "markdown": false,
-
-    "scminput": false
-
-  },
-
-  "editor.quickSuggestions": {
-
-    "other": false,
-
-    "comments": false,
-
-    "strings": false
-
-  },
-
-  "editor.suggestOnTriggerCharacters": false,
-
-  "editor.inlineSuggest.enabled": false,
-
-  "github.copilot.inlineSuggest.enable": true,
-
-  "editor.acceptSuggestionOnEnter": "off",
-
-  "editor.suggest.preview": false,
-
-  "github.copilot.editor.enableCodeActions": true,
-
-  "chat.disableAIFeatures": false,
-
-  "chat.viewSessions.orientation": "stacked",
-
-  // C# Language Server - Use OmniSharp for VS Codium compatibility
-
-  "csharp.semanticHighlighting.enabled": true
-
 }
