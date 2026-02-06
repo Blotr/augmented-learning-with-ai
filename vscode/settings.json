@@ -12,6 +12,12 @@
 
   "editor.parameterHints.enabled": true,
 
+  "editor.hover.enabled": "on",
+
+  "editor.hover.delay": 300,
+
+  "editor.hover.sticky": true,
+
   "editor.renderWhitespace": "boundary",
 
   "editor.guides.bracketPairs": true,
@@ -26,35 +32,36 @@
 
   // Copilot Learning (manual invocation only)
 
-  // Autocomplete: Ctrl + Space
+  // Autocomplete: Super + Alt + P
 
   "github.copilot.enable": {
 
-​    "*": true,
+    "*": true,
 
-​    "plaintext": false,
+    "plaintext": false,
 
-​    "markdown": false,
+    "markdown": false,
 
-​    "scminput": false
+    "scminput": false
 
   },
 
   "editor.quickSuggestions": {
 
-​    "other": false,
+    "other": false,
 
-​    "comments": false,
+    "comments": false,
 
-​    "strings": false
+    "strings": false
 
   },
+
 
   "editor.suggestOnTriggerCharacters": false,
 
   "editor.inlineSuggest.enabled": false,
 
-  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.inlineSuggest.enable": true,
 
   "editor.acceptSuggestionOnEnter": "off",
 
@@ -64,6 +71,10 @@
 
   "chat.disableAIFeatures": false,
 
-  "chat.viewSessions.orientation": "stacked"
+  "chat.viewSessions.orientation": "stacked",
+
+  // C# Language Server - Use OmniSharp for VS Codium compatibility
+
+  "csharp.semanticHighlighting.enabled": true
 
 }
